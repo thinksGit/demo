@@ -5,8 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 @RestController
-public class SharedTurnPointController {
-
+public class TurnPointController {
     @PostMapping("/upload")
     public Boolean uploadTurnPoint(MultipartFile turnPointFile) {
         return null;
