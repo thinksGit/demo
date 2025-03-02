@@ -11,3 +11,5 @@ spring:
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
+  type-aliases-package: com.heny.demo.one.entity
+  mapper-locations: classpath*:com/heny/demo/one/mapper/*.xml

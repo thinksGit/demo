@@ -5,6 +5,7 @@ import com.heny.demo.one.entity.TurnPoint;
 import com.heny.demo.one.utils.CoordinateConverter;
 import org.locationtech.jts.geom.Point;
 import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
 import java.util.List;

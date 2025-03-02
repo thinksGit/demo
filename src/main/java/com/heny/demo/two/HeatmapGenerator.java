@@ -13,8 +13,6 @@ import javax.imageio.ImageIO;
 
 /**
  *
- * 这种离散的热力图，以我有限的了解就是：x,y 映射的图片的像素坐标上，温度值映射到色值上，但是其中细节一时半会搞不清
- * 借助大模型也无法做到图示效果
  */
 public class HeatmapGenerator {
 

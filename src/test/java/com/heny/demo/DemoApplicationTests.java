@@ -19,12 +19,12 @@ class DemoApplicationTests {
 
     @Test
     void contextLoads() throws IOException {
-        File file = new File("D:\\work\\idea\\heny-demo\\file\\J1-J8.CSV");
+        File file = new File("D:\\work\\idea\\heny-demo\\file\\J1-J8.xlsx");
         byte[] fileContent = Files.readAllBytes(file.toPath());
 
         MockMultipartFile mockMultipartFile = new MockMultipartFile(
                 "turnPointFile", // 文件名
-                "J1-J8.CSV",     // 原始文件名
+                "J1-J8.xlsx",     // 原始文件名
                 MediaType.TEXT_PLAIN_VALUE, // 文件内容类型
                 fileContent      // 文件内容的字节数组
         );

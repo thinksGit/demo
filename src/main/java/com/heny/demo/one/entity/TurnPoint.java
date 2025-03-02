@@ -1,5 +1,7 @@
 package com.heny.demo.one.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.heny.demo.one.typehandler.PointTypeHandler;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,6 +19,7 @@ import org.locationtech.jts.geom.Point;
 @AllArgsConstructor
 public class TurnPoint {
     private Integer id;
+    @TableField(typeHandler = PointTypeHandler.class)
     private Point coordinate;
     private String index;
 }
