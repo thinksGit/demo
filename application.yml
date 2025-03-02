@@ -1,0 +1,2 @@
+mybatis:
+  type-handlers-package: com.heny.demo.typehandler
